@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: auto;
+}
+
+body {
+    background-image: url(../img/download.jfif);
+}
+
+.trangchinh {
+    width: 1000px;
+    height: 700px;
+    background-color: aqua;
+}
+
+.header {
+    width: auto;
+    height: 120px;
+    background-image: url(../img/download\ \(1\).jfif);
+}
+
+.menu {
+    width: auto;
+    height: 50px;
+    background-color: lightgray;
+}
+
+.menu ul li {
+    float: left;
+    width: 200px;
+    list-style: none;
+    text-indent: 10px;
+    line-height: 50px;
+}
+
+.menu ul li:hover {
+    background-color: salmon;
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sec1 {
+    width: 20%;
+    height: 400px;
+    background-color: darkgray;
+    float: left;
+}
+
+.sec2 {
+    width: 40%;
+    height: 400px;
+    background-color: rgb(189, 31, 31);
+    float: left;
+}
+
+.sec3 {
+    width: 40%;
+    height: 400px;
+    background-color: rgb(166, 16, 212);
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+}
