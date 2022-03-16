@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form1.css">
+    <script src="../js/form.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">ĐĂNG KÝ TÀI KHOẢN</h1>    
+    <form action="#" onsubmit ="SubmitForm()" >
+            
+        <br>
+        <label for="dangnhap" class="title" >Tên đăng nhập: </label>
+        <input type="text" name="dangnhap" id="txtDN" placeholder="txtDN" onBlur=" KiemTraTenDN();">
+        <span id="spDN" style="color:red">*</span> <br> <br>
+
+        <label for="mk" class="title">Mật Khẩu: </label>
+        <input type="password" name="matkhau" id="txtpw" placeholder="txtMK" onBlur=" KiemTraPassword();">
+        <span id="spMK" style="color:red">*</span><br> <br>
+
+        <label for="" class="title">Nhập lại mật khẩu: </label>
+        <input type="password" name="matkhau" id="txtNLMK" placeholder="txtNLMK" onBlur=" KiemTraNLMK()">
+        <span id="spNLMK" style="color:red">*</span><br> <br>
+
+        <h3 style="text-align: center;">Thông tin cá nhân</h3> <br>
+
+        <label for="" class="title"">Họ và tên:</label>
+        <input type="text" id="txtHT" placeholder="txtName">
+        <span id="spHT" style="color:red">* bắt buộc</span><br> <br>
+
+        <label for="" class="title">Ngày sinh:</label>
+        <input type="date" id="txtNS" onBlur="KiemNgaySinh()">
+        <span id="spNS" style="color:red">*</span><br> <br>
+
+        <label for="" class="title">Giới tính:</label>
+        <input type="radio" name="gioitinh" >
+        <label for="">Nam</label>
+        <input type="radio" name="gioitinh" >
+        <label for="">Nữ</label><br> <br>
+
+        <label for="" class="title">Địa chỉ: </label>
+        <input type="text" id="txtDC" placeholder="txtDC"><br> <br>
+
+        <label for="" class="title">Điện thoại:</label>
+        <input type="text" id="txtdt" placeholder="txtDT">
+        <span id="spDT" style="color:red">Phải là số</span><br> <br>
+
+        <label for="" class="title">Email:</label>
+        <input type="email" id="txtmail" placeholder="txtEmail">
+        <span id="spmail" style="color:red">Phải nhập đúng địa chỉ email</span><br> <br>
+
+        <input type="submit" value="Đăng ký" class="submit" style="margin-left:40%" >
+        <input type="submit" value="Hủy" class="submit">
+        </form>
+
+</body>
+</html>
